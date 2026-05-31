@@ -1,0 +1,20 @@
+# =============================================================================
+#  .gitignore - Git Ignored Files for LARM-32 RISC-V C-Project and Vivado
+# =============================================================================
+
+# Compiler Intermediate Objects
+c_project/main.o
+c_project/program.elf
+c_project/program.bin
+
+# Vivado simulation output and log databases
+*.wdb
+*.pb
+*.log
+*.jou
+*.dir/
+.Xil/
+
+# OS specific temporary files
+Thumbs.db
+.DS_Store
